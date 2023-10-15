@@ -1,7 +1,7 @@
 import discord
 
-TOKEN = 'MTE0NDIyNTAzODg5MjAxOTcxMg.GjBDpp.pxu6vpJWWRj7eFyfmRMCARY_qzUIfxYCLuEjT0'
-CHANNELID = 915570404205166593
+TOKEN =
+CHANNELID =
 
 client = discord.Client(intents=discord.Intents.all())
 
