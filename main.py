@@ -1,7 +1,10 @@
 import discord
+import configparser
 
-TOKEN =
-CHANNELID =
+config = configparser.ConfigParser()
+config.read('config.ini')
+TOKEN = config['system']['TOKEN']
+CHANNELID = config['system']['CHANNELID']
 
 client = discord.Client(intents=discord.Intents.all())
 
